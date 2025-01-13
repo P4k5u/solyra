@@ -366,10 +366,31 @@ ENV/
 # mkdocs documentation
 /site
 
-# mypy
-.mypy_cache/
-testeth
-.idea
-node_modules
-bin_output
+# Logs
 logs
+*.log
+
+# Coverage
+coverage
+
+# Dependencies
+node_modules
+
+# Build
+build/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea
+.vscode
+
+# Artifacts
+artifacts
+coverage.json
+cache
+typechain-types
+
+#Out
+bin/
